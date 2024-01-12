@@ -10,7 +10,7 @@
   <button onclick="genID()">random  ID</button>
 <p>
 <span id ="id" style="font-size:22px;"></span>
-
+<a href= "https://github.com/maewdev/gen-thai-id" target="_blank">Github</a>
 <script>
   genID()
 function genID() {
