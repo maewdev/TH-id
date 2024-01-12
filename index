@@ -17,11 +17,11 @@ function genID() {
   const maxID=15
   let ids=""
   for(let i=0;i<maxID;i++)
-    ids+=generateThaiCitizenID()+"<br>"
+    ids+=generateID()+"<br>"
   document.getElementById("id").innerHTML=ids ;
 }
 
-function generateThaiCitizenID() {
+function generateID() {
   let id = '';
   let sum = 0;
 
